@@ -1,0 +1,83 @@
+nav{
+ overflow: hidden;
+ background-color: black;   
+}
+nav a{
+    float: left;
+    display: block;
+    color:goldenrod;
+    text-align: center;
+    padding: 14px 16px ;
+    text-decoration: none;
+    font-size: 17px ;
+}
+nav a :hover{
+    background-color: blue;
+    color: black;
+
+}
+nav a :active{
+    background-color: blue;
+    color: black;
+}
+.hero{
+height: 350px;
+background-color: goldenrod;
+background-image: url(./coding\ pic.png);
+}
+.btn{
+       height: 50px;
+       width: 200px;
+       background-color: blue;
+       font-size: 17px;
+       color: white;
+       margin-top: 20%;
+       margin-left: 40%;
+       border-radius:10px;
+       text-align: center;
+       padding: 10px;
+       text-decoration: none;
+       display: inline-block;
+       cursor: pointer;
+       border: none;
+       outline: none;
+       box-shadow: 0 9px #999;
+       transition:  0.35;
+       -webkit-transition:  0.35;
+       -moz-transition:  0.35;
+       -ms-transition:  0.35;
+       -o-transition:  0.35;
+}
+.btn:hover{
+    background-color: blue;
+    color: white;
+}
+.icon{
+    box-sizing: 40px;
+
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    color: goldenrod;
+}
+.bout{
+    display: flex;
+    background-color:blue;
+}
+.bout2{
+  height: 400px;
+  width: 300px;
+}
+.bout3{
+    height: 400px;
+    width: 300px;
+  }
+  .foo{
+    display: flex;
+    background-color: black;
+    justify-content: flex-start;
+  }
+  h1{
+    color: goldenrod;
+  }
